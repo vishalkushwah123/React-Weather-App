@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.serch-box {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.serch-bar {
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: 2px solid grey;
+
+}
+
+.serch-bar:focus {
+    outline: none;
+    border: 2px solid grey;
+}
+
+.weather-box {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+
+.temp-box {
+    padding: 20px;
+    background: rgba(192, 188, 188, 0.4);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.temp {
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.weather {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+button {
+    margin: 0px 10px;
+    border: none;
+    background: grey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
